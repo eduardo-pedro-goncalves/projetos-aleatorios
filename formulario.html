@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário HTML</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <form class="formulario" method="post"> 
+        <p> Envie uma mensagem preenchendo o formulario abaixo</p>
+        
+        
+        <br>
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div>
+        <br>
+           <div class="field">
+            <label for="telefone">Seu Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone" required>
+        </div>
+        
+<br>
+        <label>Qual a cidade?</a>
+<select name="viagem">
+    <option value="none"></option>
+    <option value="Guaru">Guarulhos</option>
+    <option value="Sampa">Sao Paulo</option>
+</select>
+        
+       <br>
+            <br>
+        <div class="field">
+            <label for="mensagem">Descreva o problema:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div>
+<br>
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+</body>
+</html>
